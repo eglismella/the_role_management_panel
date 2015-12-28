@@ -1,0 +1,48 @@
+it:
+  the_role_gui:
+    role_created:             Ruolo creato
+    role_updated:             Ruolo aggiornato
+    role_deleted:             Ruolo eliminato
+    section_created:          Sezione creato
+    section_not_created:      Sezione non creata
+    section_rule_created:     "Sezione Regeola creata"
+    section_rule_not_created: "Sezione Regeola nom creata"
+    section_rule_on:          "Sezione Regeola è abilitata"
+    section_rule_off:         "Sezione Regeola è disabilitata"
+    state_not_changed:        "Sezione Regeola non cambiata"
+    section_deleted:          Sezione eliminata
+    section_not_deleted:      Sezione non eliminata
+    section_rule_deleted:     "Sezione Regeola eliminata"
+    section_rule_not_deleted: "Sezione Regeola non eliminata"
+    imported_roles:           "Ruoli importati: %{roles_list}"
+
+    roles:
+      new:
+        create: Crea nuovo ruolo
+        name: Nome del ruolo Ruolo (underscored latin string)
+        title: Titolo del Ruolo (text)
+        description: Descrizione del Ruolo (text)
+        based_on_role: "Nuovo Ruolo verrà basato su:"
+      role:
+        role_name: Ruolo nome
+        title:     Titolo
+        role_description: Descrizione del ruolo
+        delete_section: Elimina sezione
+        section_delete_confirm: 'Vuoi eliminare la sezione?'
+        rule_delete_confirm: 'Vuoi eliminare la regola?'
+        enable: Abilita
+        disable: Disabilita
+        delete_rule: Elimina Regola
+        new_section_placeholder: Nuova Sezione
+        create_section: Crea nuova sezione
+        new_rule_placeholder: Nuova Regeola
+        create_rule: Crea nuova regola
+        role_export: "Esporta Ruolo"
+      sidebar:
+        roles_list: Lista Ruoli
+        new_role: Crea nuovo ruolo
+        delete_role_confirm: 'Sei sicuro? potrebbe essere pericoloso!'
+
+        roles_export: "Esporta ruoli"
+        roles_import: "Importa ruoli"
+        roles_import_confirm: 'Potrebbe cambiare la struttura dei ruoli nel sistema. Sei sicuro?'
